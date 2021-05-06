@@ -33,10 +33,13 @@ public class AddressBookMain {
                     break;
                 case 5:
                     addressBook.sortByfirstName();
+                    break;
                 case 6:
                     addressBook.sortByZipcode();
+                    break;
                 case 7:
                     addressBook.addMultiplePerson();
+                    break;
                 case 8:
                     System.out.println("Press 1 to view by city and 2 to view by State");
                     int Option = scanner.nextInt();
