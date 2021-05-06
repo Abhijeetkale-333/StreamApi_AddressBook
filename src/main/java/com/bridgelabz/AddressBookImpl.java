@@ -1,14 +1,15 @@
 package com.bridgelabz;
 
+import java.util.*;
 import java.util.Collections;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
+import java.util.ArrayList;
 
 public class AddressBookImpl implements IAddressBook {
     Scanner scanner = new Scanner(System.in);
-    List<Person> list = new LinkedList<Person>();
+    List<Person> list = new ArrayList<Person>();
 
     public void add() {
         System.out.println("Enter your first name");
